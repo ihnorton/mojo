@@ -193,7 +193,7 @@ fn get_cwd_message() raises -> String:
 And make sure you're importing it from the module root:
 
 ```mojo
-# ./stdblib/src/pathlib/__init__.mojo
+# ./stdlib/src/pathlib/__init__.mojo
 
 from .path import (
     DIR_SEPARATOR,
